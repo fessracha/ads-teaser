@@ -1,10 +1,10 @@
 /* reset */
 
-.ads-teaser-scope h2, .ads-teaser-scope h3, .ads-teaser-scope p {
+.board-teaser-scope h2, .board-teaser-scope h3, .board-teaser-scope p {
   margin: 0;
 }
 
-.ads-teaser-scope ul {
+.board-teaser-scope ul {
   margin: 0px;
   padding: 0px;
   list-style: none;
@@ -12,15 +12,15 @@
 
 /* ads-teaser */
 
-.ads-teaser-scope .ads-teaser {
+.board-teaser-scope .board-teaser {
   font-family: 'Roboto', sans-serif;
 }
 
-.ads-teaser-scope .ads-teaser__meta {
+.board-teaser-scope .board-teaser__meta {
   position: relative;
 }
 
-.ads-teaser-scope .ads-teaser__title {
+.board-teaser-scope .board-teaser__title {
   font-weight: 700;
   font-size: 28px;
   line-height: 30px;
@@ -29,7 +29,7 @@
   margin: 0;
 }
 
-.ads-teaser-scope .ads-teaser__all-link {
+.board-teaser-scope .board-teaser__all-link {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -37,23 +37,23 @@
   text-decoration: none;
 }
 
-.ads-teaser-scope .ads-teaser__list {
+.board-teaser-scope .board-teaser__list {
   margin-top: 20px;
 }
 
-.ads-teaser-scope .ads-teaser__logo {
+.board-teaser-scope .board-teaser__logo {
   position: absolute;
   right: 20px;
   bottom: 0;
 }
 
-.ads-teaser-scope .ads-teaser__logo--bottom {
+.board-teaser-scope .board-teaser__logo--bottom {
   display: none;
 }
 
 /* ads-list */
 
-.ads-teaser-scope .ads-list {
+.board-teaser-scope .board-list {
   display: flex;
   grid-gap: 20px;
   overflow-y: hidden;
@@ -63,18 +63,18 @@
 
 /* ads-item */
 
-.ads-teaser-scope .ads-item__img {
+.board-teaser-scope .board-item__img {
   margin-bottom: 12px;
   object-fit: cover;
 }
 
-.ads-teaser-scope .ads-item__title {
+.board-teaser-scope .board-item__title {
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
 }
 
-.ads-teaser-scope .ads-item__description {
+.board-teaser-scope .board-item__description {
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
@@ -82,7 +82,7 @@
   margin-top: 4px;
 }
 
-.ads-teaser-scope .ads-item__time {
+.board-teaser-scope .board-item__time {
   display: block;
   margin-top: 8px;
   font-size: 14px;
@@ -93,54 +93,54 @@
 
 /* helpers */
 
-.ads-teaser-scope .container {
+.board-teaser-scope .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-.ads-teaser-scope .offset-box {
+.board-teaser-scope .offset-box {
   padding: 0 20px;
 }
 
 @media screen and (max-width: 992px) {
-  .ads-teaser-scope .ads-teaser__title {
+  .board-teaser-scope .board-teaser__title {
     font-size: 22px;
     line-height: 22px;
   }
 }
 
 @media screen and (max-width: 576px) {
-  .ads-teaser-scope .ads-teaser__logo--bottom {
+  .board-teaser-scope .board-teaser__logo--bottom {
     display: block;
     position: relative;
     right: auto;
     bottom: auto;
   }
 
-  .ads-teaser-scope .ads-teaser__logo--top {
+  .board-teaser-scope .board-teaser__logo--top {
     display: none;
   }
 
-  .ads-teaser-scope .ads-teaser__title {
+  .board-teaser-scope .board-teaser__title {
     font-size: 18px;
     line-height: 22px;
   }
 
-  .ads-teaser-scope .ads-item__title {
+  .board-teaser-scope .board-item__title {
     font-size: 16px;
     line-height: 18px;
   }
   
-  .ads-teaser-scope .ads-item__description {
+  .board-teaser-scope .board-item__description {
     font-size: 14px;
     line-height: 16px;
   }
 
-  .ads-teaser-scope .ads-list {
-    padding: 20px 15px 20px;
+  .board-teaser-scope .board-list {
+    padding: 0 20px 15px 20px;
   }
 
-  .ads-teaser-scope .offset-box {
+  .board-teaser-scope .offset-box {
     padding: 0 15px;
   }
 }
