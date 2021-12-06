@@ -76,6 +76,10 @@
   text-decoration: none;
 }
 
+.board-teaser-scope .board-item__link:hover {
+  color: #3D76B9;
+}
+
 .board-teaser-scope .board-item__link::after {
   position: absolute;
   content: '';
