@@ -113,6 +113,10 @@
   color: #B1B1BA;
 }
 
+.board-teaser-scope .board-item__characteristic {
+  margin-right: 10px;
+}
+
 /* helpers */
 
 .board-teaser-scope .container {
